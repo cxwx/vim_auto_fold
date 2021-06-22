@@ -9,13 +9,10 @@ if (v:version == 801 && !exists('*matchadd')) || (v:version < 801)
   finish
 endif
 
-function! s:cxFoldColumnToggle()
+function! s:foldColumnToggle()
   call vim_auto_fold#toggle()
 endfunction
 
 " Commands
-command! -bar FoldColumnToggle call s:cxFoldColumnToggle()
-
-" Plug mappings
-" nnoremap <unique><script> <Plug>:FoldColumnToggle FoldColumnToggle<CR>
+command! -bar FoldColumnToggle call s:foldColumnToggle()
 
