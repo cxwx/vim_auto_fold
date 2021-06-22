@@ -1,0 +1,23 @@
+*foldcolumntoggle-guides.txt*  A plugin for set foldcolumn=3 and set
+foldcolumn = 0.
+
+
+==============================================================================
+CONTENTS                                     *foldcolumntoggle-guides-contents*
+
+  1. Introduction.......................... |indent-guides-introduction|
+  2. Commands.............................. |indent-guides-commands|
+
+==============================================================================
+1. INTRODUCTION                          *foldcolumntoggle-guides-introduction*
+
+under construct
+
+==============================================================================
+2. COMMANDS                                   *foldcolumntoggle-guide-commands*
+
+------------------------------------------------------------------------------
+:FoldColumnToggle                                         *:IndentGuidesToggle*
+  Toggles the foldcolumn between 0 and 3.
+
+------------------------------------------------------------------------------
